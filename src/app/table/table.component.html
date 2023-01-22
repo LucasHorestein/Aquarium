@@ -1,0 +1,15 @@
+<div class="container">
+    <table cdkDropList (cdkDropListDropped)="DragAndDrop($event)">
+        <div class="outside-box">
+            <tr>
+                <td class="circles" *ngFor="let color of colors" [style.background-color]="color">
+                </td>
+            </tr>
+            <tr>
+                <td class="buttons">
+                    <button *ngFor="let color of colors" cdkDrag (click)="changeColor(color)">{{color}}</button>
+                </td>
+            </tr>
+        </div>
+    </table>
+</div>

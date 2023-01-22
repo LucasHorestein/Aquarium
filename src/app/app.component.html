@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="aquarium">
+        <app-aquarium [color]="selectedColor"></app-aquarium>
+  </div>
+  <div class="table">
+        <app-table (colorChanged)="changeColor($event)"></app-table>
+  </div>
+</div>

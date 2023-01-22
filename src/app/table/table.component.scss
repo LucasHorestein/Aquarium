@@ -1,0 +1,45 @@
+.container{
+    margin-top: 25%;
+    margin-left: 10%;
+    width:800px; 
+    height:600px;
+    border: 1px solid black;
+}
+
+table{
+    margin-top: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outside-box{
+    padding: 20px ;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.circles{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+  
+button{
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 5vw;
+    border-radius: 10px;
+}
